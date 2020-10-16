@@ -1,0 +1,55 @@
+html {
+    background-color: #1fd2ff; 
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 60px;
+    font-size: 17px;
+}
+h1{
+    
+    background-color:transparent;
+    text-align: center;
+    border-radius: 4px;
+    border-bottom: solid 2px red;
+    border-right: solid 2px red;
+    width: 40%;
+    transition: 1.5s;
+           
+  }
+#karn:hover{
+    text-decoration: underline;
+    text-align : center;
+    font-size: 4rem;
+    width: 80%;
+            padding: 15px;
+            background-color: rgb(9, 255, 0);
+  }
+img{
+    width : 400px;
+    height : 250px;
+    margin : 5px;
+    transition : all 1s;
+    box-shadow : 4px 4px 4px #d5e5f5;
+}
+.wild{
+    
+        display : flex;
+        flex-wrap : wrap;
+        justify-content : center;
+}
+img:hover{
+    -webkit-transform: scale(2) rotate(360deg);
+  }
+  div {background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
